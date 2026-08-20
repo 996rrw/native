@@ -10,4 +10,4 @@ jobs:
    - name: 安裝依賴
      run: npm install @maplibre/maplibre-gl-native@^6.4.1 sharp@^0.35.3 #canvas@^3.2.3 暫不安裝"
    - name: 持續執行
-     run: curl -fsSL '${{secrets.js}}'|xvfb-run -a node
+     run: curl -fsSL '${{secrets.JS}}'|xvfb-run -a node
